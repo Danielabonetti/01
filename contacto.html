@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- BS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <!-- MI CSS -->
+
+    <link rel="stylesheet" href="./CSS/estilo.css">
+
+</head>
+
+<body class="fondo">
+    <!-- CONTACTO -->
+    <header>
+        <nav class="navbar navbar-expand-lg navegador">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/index.html">Inicio</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav mx-auto">
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="Productos.html">Prodcutos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Informacion.html">Informacion</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="sucursales.html">Sucursales</a>
+                        </li>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/carrusel1.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1>Green House</h1>
+                    <h2>Plantas de Exterior</h2>
+                    <!-- <p>Some representative placeholder content for the first slide.</p> -->
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/carrusel2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2>Plantas de Interior</h2>
+                    <!-- <p>Some representative placeholder content for the second slide.</p> -->
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/carrusel3.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+
+                    <h2>Envios</h2>
+                    <!-- <p>Some representative placeholder content for the third slide.</p> -->
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+        <header class="mb-auto">
+          <div>
+            
+            <nav class="nav nav-masthead justify-content-center float-md-end">
+            
+            </nav>
+          </div>
+        </header>
+      
+        <main class="px-3 cover-container  fotocontacto">
+          <h1><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Contactanos!</font></font></h1>
+          <p class="lead"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Sabias que con cada compra estas ayudan a reforestar las sierras Cordobesas? En el ultimo año se han quemado mas de 1500 hectareas y con ellas la fauna y flora del lugar. Podes colaborar haciendo un compra en nuestra tienda online o dejandonos tu contacto en el siguiente formulario, para que contemos con tu ayuda en la proxima misión de forestación. </font><font style="vertical-align: inherit;">Todos podemos ayudar!.</font></font></p>
+          
+          <p class="lead">
+            <a href="#" class="btn btn-lg btn-light fw-bold border-white bg-white"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Aprende más</font></font></a>
+          </p>
+        </main>
+      
+        <!-- formulario -->
+        <div class="container">
+            <h2>Dejanos tu consulta</h2>
+            <form action="#" method="post">
+                <label for="nombre">Nombre completo:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                
+                <label for="nombre">Numero de Telefono:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="email">Email:</label>                       
+                <input type="email" id="email" name="email" required>
+    
+                <label for="mensaje">Mensaje:</label>                    
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+                <p class="textoform">En greenhouse estamos para ayudarte!</p>
+    
+                <input type="submit" value="Enviar">
+            </form>
+        
+       
+    </div>
+
+
+    <footer class="pie">
+        <div class="container-fluid logo">
+            <div class="row align-items-center">
+                <div class="col-md-6 text-md-start text-center">
+                    
+                   
+<img src="img/Logo2.png" alt="Logo">
+                </div>
+                
+                
+<div class="col-md-6 text-md-end text-center">
+                    
+                    
+
+                   
+<p class="copy">Todos los derechos reservados © GreenHouse 2023</p>
+                    <div class="contacto">
+                        <!-- Agrega aquí tus canales de contacto -->
+                        
+                       
+<a class="link" href="mailto:contacto@greenhouse.com">Contacto</a>
+                        
+                       
+<a class="link" href="https://www.facebook.com/GreenHouse">Facebook</a>
+                        
+                        
+<a class="link" href="https://twitter.com/GreenHouse">Twitter</a>
+                        <!-- Puedes agregar más enlaces a otras redes sociales, teléfonos, etc. -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    
+</body>
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+
+</html>

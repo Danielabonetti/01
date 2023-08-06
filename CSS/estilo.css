@@ -1,0 +1,196 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navegador{
+    background-color: rgb(253, 251, 251)  ;
+}
+
+.titulo{
+text-align: center;
+padding: 50px 20px;
+}
+
+
+/* cajitas */
+
+.caja{
+    padding: 20px 20px;
+    text-align: center;
+    
+}
+
+img{
+    width: 140px;
+}
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    /* -webkit-user-select: none;
+    -moz-user-select: none; */
+    
+}
+
+/* productos */
+.productostitulo{
+    text-align: center;
+    padding: 50px 20px;
+    background-color: rgb(224, 241, 214);
+
+}
+
+.btn-color{
+    color: rgb(246, 248, 248);
+    background-color: rgb(4, 192, 4);
+    padding: 10px 10px;
+    
+}
+
+.card{
+    margin: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* footer */
+
+.pie {
+    background-color: #646060; 
+    color: #fff; 
+    padding: 20px 0; 
+}
+
+.logo img {
+    max-width: 150px;
+    padding: auto; 
+}
+
+.copy {
+    font-size: 14px; 
+}
+
+.contacto {
+    margin-top: 10px; 
+}
+
+.contacto a {
+    color: #fff; 
+    margin-right: 10px; 
+}
+
+/*formulario*/
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    
+   
+margin: 0;
+    
+   
+padding: 0;
+}
+
+.container {
+    
+   
+max-width: 400px;
+    
+   
+margin: 50px auto;
+    background-color: #646060;
+    
+   
+padding: 20px;
+    
+   
+border-radius: 10px;
+    
+   
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    display: grid;
+    gap: 10px;
+}
+
+label {
+    
+   
+font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    
+   
+width: 100%;
+    
+   
+padding: 8px;
+    border: 1px solid #ccc;
+    
+   
+border-radius: 4px;
+}
+
+textarea {
+    
+   
+resize: vertical;
+}
+
+input[type="submit"] {
+    
+   
+background-color: #2ecc71;
+    
+   
+color: #fff;
+    
+   
+padding: 10px 20px;
+    
+   
+border: none;
+    
+   
+border-radius: 4px;
+    
+   
+cursor: pointer;
+}
+
+.textoform{
+    font-size: small;
+}
+
+input[type="submit"]:hover {
+    
+   
+background-color: #27ae60;
+}
+
+.fotocontacto{
+    background: cover;
+    background-color:  rgb(224, 241, 214);
+ 
+    
+
+}
+
+body{
+    background-color: rgba(242, 245, 243, 0.658);
+}
